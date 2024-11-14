@@ -94,11 +94,11 @@ button:hover {
 /* Media queries para dispositivos móviles */
 @media (max-width: 600px) {
     header {
-        padding: 10px 0; /* Ajustamos el padding para dispositivos móviles */
+        padding: 1px 0; /* Ajustamos el padding para dispositivos móviles */
     }
 
     header img {
-        width: 80px; /* Hacemos la imagen aún más pequeña en pantallas pequeñas */
+        width: 280px; /* Hacemos la imagen aún más pequeña en pantallas pequeñas */
     }
 
     main {
@@ -106,6 +106,6 @@ button:hover {
     }
 
     form {
-        width: 90%; /* Aseguramos que el formulario ocupe la mayoría del ancho de la pantalla */
+        width: 160%; /* Aseguramos que el formulario ocupe la mayoría del ancho de la pantalla */
     }
 }
