@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedido Caldas</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="imgs/icon.png">
+</head>
+<body>
+    <header>
+        <img src="imgs/logoeurosup.png" >
+        <h3>CANTARA <br>CALCULADORA DE PESO NETOS SOBRE CANASTAS</h3>
+    </header>
+    <main>
+        <form id="calculation-form">
+            <label for="numcanastas">Número de Canastas:</label>
+            <input type="number" step="any" id="numcanastas" name="numcanastas" required>
+            <label for="taracanasta">Tara de Canasta:</label>
+            <select id="taracanasta" name="taracanasta" required>
+                <option value="1.8">1.8</option>
+                <option value="2.0">2.0</option>
+            </select>
+            <label for="pesobruto">Peso Bruto:</label>
+            <input type="number" step="any" id="pesobruto" name="pesobruto" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
